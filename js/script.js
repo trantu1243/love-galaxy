@@ -2,7 +2,7 @@ const musicManager = {
     audio: null,
     isPlaying: false,
     init() {
-        this.audio = new Audio("./Ly.mp3");
+        this.audio = new Audio("./Daylight.mp3");
         this.audio.loop = true;
         this.audio.volume = 0.7;
         this.audio.preload = "auto";
